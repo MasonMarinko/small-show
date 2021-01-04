@@ -29,6 +29,7 @@ const typeDefs = gql`
     userName: String
     twitchUserName: String
     email: String
+    isAdmin: Boolean
     adminApproved: Boolean
     orders: [Order]
   }

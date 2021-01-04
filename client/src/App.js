@@ -7,6 +7,7 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Admin from "./pages/Admin";
 import Nav from "./components/Nav";
 import Profile from "./pages/Profile";
 import { Provider } from 'react-redux';
@@ -37,6 +38,7 @@ function App() {
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/products/:id" component={Detail} />
               <Route exact path="/profile" component={Profile} />
+              <Route exact path="/admin" component={Admin} />
               <Route component={NoMatch} />
             </Switch>
           </Provider>

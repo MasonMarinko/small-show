@@ -7,6 +7,7 @@ export const QUERY_ALL_USERS = gql`
       firstName
       lastName
       twitchUserName
+      adminApproved
     }
   }
 `;

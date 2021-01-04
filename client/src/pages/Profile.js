@@ -47,7 +47,7 @@ function Profile() {
         </div>
         <div className="flex-row">
           <p>**More features coming soon!**</p>
-        </div>
+        </div>    
     </div>
   )
 }
